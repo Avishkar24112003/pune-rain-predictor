@@ -119,4 +119,3 @@ elif section == "Predict Rain Today":
         result = "🌧️ Rain" if pred[0]==1 else "☀️ Not Rain"
         st.success(f"Prediction: {result}")
 
-streamlit run rain_dashboard.py
